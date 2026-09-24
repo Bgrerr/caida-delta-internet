@@ -2,8 +2,6 @@
 
 Análisis de la topología de Internet a nivel de **Sistemas Autónomos (AS)** usando el *AS Relationships Dataset* de [CAIDA](https://www.caida.org/). El proyecto construye el grafo de Internet, calcula sus métricas estructurales y estima la **constante universal Δ (γ)**: el exponente de la ley de potencias que sigue la distribución de grado, $P(k) \propto k^{-\gamma}$. Después explica qué significa esa constante y para qué sirve en el diseño de redes.
 
-> Trabajo universitario de Ciencia de Redes / Teoría de Grafos.
-
 ---
 
 ## Tabla de contenido
