@@ -91,15 +91,6 @@ Si la descarga automática falla por proxy o firewall, descargue el archivo `AAA
 - **`README.md` se actualiza solo.** El script reescribe la sección [Resultados](#resultados) con tablas, figuras e interpretación de los datos reales, delimitada por dos comentarios HTML invisibles (`INICIO:RESULTADOS` y `FIN:RESULTADOS`). El resto del README no se toca.
 - `resultados/grados_<fecha>.csv` guarda el grado de cada AS, y `resultados/resumen_<fecha>.md` una copia de la sección generada.
 
-### Flujo para publicar en GitHub
-
-```bash
-python analisis_caida_delta.py          # descarga, analiza y reescribe el README (5–15 min)
-git add README.md docs/
-git commit -m "Resultados con snapshot CAIDA"
-git push
-```
-
 ## El dataset de CAIDA
 
 Se usa el **CAIDA AS Relationships Dataset (serial-1)**. CAIDA lo infiere mensualmente a partir de las tablas BGP públicas de RouteViews y RIPE RIS, y [su página del catálogo](https://www.caida.org/catalog/datasets/as-relationships/) describe el dataset completo.
