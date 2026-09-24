@@ -1,0 +1,15 @@
+# Datos de CAIDA (pesados y sujetos a su AUP): no se versionan
+data/*
+!data/.gitkeep
+
+# Resultados generados (se regeneran ejecutando el script)
+resultados/*
+!resultados/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
